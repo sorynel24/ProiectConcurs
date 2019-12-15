@@ -2,10 +2,10 @@ package Week1;
 
 public class HomeWork3 {
     public static void main(String[] args){
-        int numberOfSecondInAnHour = 3600;
-        int numberOfHourInAnDay = 24;
+        int SecondInAnHour = 3600;
+        int HourInAnDay = 24;
 
-        int totalOfSecondsInAnDay = numberOfSecondInAnHour * numberOfHourInAnDay;
+        int totalOfSecondsInAnDay = SecondInAnHour * HourInAnDay;
 
         int totalOfSecondsInAnYear = totalOfSecondsInAnDay * 365;
 
