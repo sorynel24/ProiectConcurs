@@ -2,7 +2,7 @@ package Week1;
 
 public class HomeWork1 {
     public static void main(String[] args){
-        System.out.println("Prejbeanu Sorin Marian");
+        System.out.println("Prejbeanu Sorin ");
 
         SecondExe();
         ThirdExe();
