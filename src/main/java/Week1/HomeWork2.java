@@ -5,11 +5,11 @@ import java.sql.SQLOutput;
 public class HomeWork2 {
     public static void main(String[] args){
         String Chicken = "Chicken :";
-        byte NumberOfChicken = 3;
+        int NumberOfChicken = 9000;
         String Bacon = "Bacon (kg):";
-        float BaconKg = 5.5f;
+        float BaconKg = 0.1f;
         String TractorWord = "Tractor";
-        String anotherString = "There is none";
+        String anotherString = "Zetor";
         String anotherString2 = "In a nutshell";
 
 
