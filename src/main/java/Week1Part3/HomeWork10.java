@@ -37,6 +37,5 @@ public class HomeWork10 {
         NHLStatistics.sortByPoints();
         NHLStatistics.teamStatistics("ANA");
 
-
     }
 }
