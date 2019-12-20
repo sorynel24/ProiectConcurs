@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class HomeWork12 {
     public static void main(String[] args){
-        Scanner input = new Scanner(System.in);
+        Scanner inputText = new Scanner(System.in);
 
         System.out.println("How old are you?");
-        int age = input.nextInt();
+        int age = inputText.nextInt();
 
         if(age >= 18){
             System.out.println("You have reached the age of majority!");

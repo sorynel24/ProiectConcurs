@@ -7,11 +7,11 @@ public class HomeWork11 {
         Scanner input_Int = new Scanner(System.in);
 
         System.out.println("Type a number: ");
-        int userNum = input_Int.nextInt();
+        int userNumber = input_Int.nextInt();
 
-        if(userNum > 0){
+        if(userNumber > 0){
             System.out.println("The number is positive");
-        }else if(userNum < 0){
+        }else if(userNumber < 0){
             System.out.println("The number is not positive");
         }else{
             System.out.println("0 is neutral");
