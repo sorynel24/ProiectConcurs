@@ -2,7 +2,7 @@ package Week1Part3;
 
 import java.util.Scanner;
 
-public class HomeWork15 {
+public class HomeWork15A {
     public static void main(String[] args){
         Scanner ageChecker = new Scanner(System.in);
 
@@ -16,3 +16,4 @@ public class HomeWork15 {
         }
     }
 }
+
