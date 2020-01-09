@@ -10,10 +10,12 @@ public class SmartCombining {
 
         while(counter < list.size()){
             counter++;
-            if(!list.contains(number)){
-                list.add(number);
-            }else if(list.contains(number)){
+            if(list.get(counter).equals(number)){
                 System.out.println("This number is more than once!");
+                break;
+            }else if(!list.get(counter).equals(number)){
+                list.add(number);
+                System.out.println("The number is added.");
                 break;
             }
         }
@@ -33,7 +35,7 @@ public class SmartCombining {
 
         System.out.println(List);
 
-        smartCombine(List, 55);
+        smartCombine(List, 2);
 
         System.out.println(List);
 
