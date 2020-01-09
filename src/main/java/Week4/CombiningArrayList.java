@@ -22,6 +22,7 @@ public class CombiningArrayList {
         list2.add(7);
         list2.add(9);
 
+
         combine(list1, list2);
 
         System.out.println(list1);
